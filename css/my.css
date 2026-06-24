@@ -1,0 +1,15 @@
+.navbar-icon {
+    font-size: 2.5rem;       /* adjust until it fills the circle nicely */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 991px) {
+    .navbar-icon {
+        font-size: 1rem; /* smaller to match a smaller mobile circle */
+    }
+}
+
+i.navbar-icon.bi-telegram {
+    font-size: 2.5rem !important;
+}
